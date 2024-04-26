@@ -1,8 +1,5 @@
 package com.snzy.core;
 
-import java.util.function.Consumer;
-import java.util.function.Function;
-
 import com.snzy.entities.Ship;
 import com.snzy.graphics.ShipPainter;
 import com.snzy.graphics.WindowFrame;

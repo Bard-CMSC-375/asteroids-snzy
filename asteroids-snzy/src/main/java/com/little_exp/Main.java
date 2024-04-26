@@ -14,10 +14,10 @@ public class Main extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel panel = new JPanel();
-        panel.setFocusable(true); // 设置为可获取焦点，以便接收键盘事件
+        panel.setFocusable(true);
         add(panel);
 
-        panel.addKeyListener(new MyKeyListener()); // 将键盘监听器添加到 JPanel 上
+        panel.addKeyListener(new MyKeyListener());
 
         setVisible(true);
     }
@@ -30,12 +30,10 @@ public class Main extends JFrame {
 
         @Override
         public void keyReleased(KeyEvent e) {
-            // 按键释放时触发的操作
         }
 
         @Override
         public void keyTyped(KeyEvent e) {
-            // 键入字符时触发的操作
         }
     }
 
